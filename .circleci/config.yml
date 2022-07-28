@@ -46,3 +46,4 @@ jobs:
         - run:
             name: deploy-application
             command: ssh -o StrictHostKeyChecking=no $EC2_ANA@$EC2_PUBLIC_DNS " rm -rf DevopsApplication/;git clone https://github.com/ANAVG0/DevopsApplication; source DevopsApplication/deploy.sh"
+#comentario
